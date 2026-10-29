@@ -1,0 +1,52 @@
+{
+  "onebot": {
+    "ws_url": "ws://127.0.0.1:3001",
+    "access_token": ""
+  },
+  "access": {
+    "allow_users": ["<YOUR_QQ>"],
+    "allow_groups": ["*"],
+    "group_need_at": true,
+    "auto_accept_group": true
+  },
+  "behavior": {
+    "humanize": true,
+    "max_bubbles": 30,
+    "max_manual_bubbles": 30,
+    "min_bubble_chars": 60,
+    "auto_split_over": 0,
+    "hard_chunk_chars": 1200,
+    "min_turn_seconds": 0,
+    "ack_delay_ms": 0,
+    "max_concurrent": 3
+  },
+  "proactive": {
+    "enabled": true,
+    "qq": "<YOUR_QQ>",
+    "check_interval_s": 300
+  },
+  "plan_task": {
+    "enabled": true,
+    "hour": 9
+  },
+  "tts": {
+    "enabled": true,
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+4%",
+    "pitch": "+8Hz",
+    "max_chars": 120
+  },
+  "catchup": {
+    "enabled": true,
+    "max_messages": 10,
+    "max_hours": 6
+  },
+  "dsh": {
+    "home": "/opt/dsh-qq/home",
+    "cwd": "/opt/dsh-qq/workspace",
+    "provider": "deepseek-official",
+    "model": "deepseek-v4-flash",
+    "reasoning_effort": "high",
+    "timeout_seconds": 900
+  }
+}

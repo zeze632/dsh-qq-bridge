@@ -1,0 +1,40 @@
+# ---- 密钥与凭据（最重要，永远不要提交）----
+*.env
+.env
+*_cookies.json
+cookies*.json
+*_token*
+*.pem
+*.key
+
+# ---- 运行数据 ----
+data/
+.chatlog/
+.group/
+.inbox/
+memory/
+.state/
+sessions/
+logs/
+*.log
+
+# ---- 媒体与截图（可能含隐私）----
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+qr*.png
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

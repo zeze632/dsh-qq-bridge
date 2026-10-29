@@ -1,0 +1,8 @@
+deepseek-harness-sdk>=0.2.1
+deepseek-harness-runtime-bin>=0.2.1
+websockets>=13
+faster-whisper>=1.0
+edge-tts>=7.0
+yt-dlp>=2025.1
+qrcode[pil]>=7.4
+psutil>=5.9
