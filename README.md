@@ -99,7 +99,7 @@ QQ 客户端会掉线（之前用协议端时最多 4 小时一次）。两件�
 ### 步骤
 
 ```bash
-git clone <repo>
+git clone https://github.com/zeze632/dsh-qq-bridge
 cd dsh-qq-bridge
 cp .env.example .env      # 填 API Key
 ```
